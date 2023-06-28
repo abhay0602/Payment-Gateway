@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Payment Gateway</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Payment Form</h1>
+      <img src="img/american.png" alt="" width="125" height="110"/>
+      <img src="img/visaa.png" alt="" width="125" height="110"/>
+      <img src="img/mastercardd.png" alt="" width="125" height="110"/>
+      <img src="img/rupayy.png" alt="" width="125" height="110"/>
+
+      <form name="card-info">
+        <label>Card Number <input
+            type="number"
+            name="card-number"
+            id="card-number"
+            placeholder="VAILD CARD NUMBER"
+            required
+          />
+          <span></span>
+        </label>
+       
+        <label>Exp Date
+        <input
+          type="number"
+          name="exp-date"
+          id="exp-date"
+          placeholder="MM/YEAR"
+          required
+        />
+        <span></span>
+       </label>
+        <label>CV Code
+        <input
+          type="number"
+          name="cv-code"
+          id="cv-code"
+          placeholder="CVC"
+          maxlength="3"
+          required
+        />
+        <span></span>
+       </label>
+        <label>Card Owner
+        <input
+          type="text"
+          name="name-text"
+          id="name-text"
+          placeholder="CARD OWNER NAME"
+          required
+        />
+        <span></span>
+        </label>
+        <button class="btn">Confirm Payment</button>
+      </form>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

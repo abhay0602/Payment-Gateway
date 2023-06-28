@@ -1,0 +1,26 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#cd7e7e,#468cf5);
+    
+}
+
+
+.container{width: 800px;padding: 100px; border: 2px solid rgb(229, 30, 30); margin: 20px; border-radius: 10px; box-shadow: 2px 3px 4px; }
+
+.container img{margin: 10px; border-radius: 10px; box-shadow: 2px 3px 2px;}
+
+h1{text-align: center; font-weight:bold; margin: 10px; font-size: 2.9rem; }
+
+form label{font-size: 1.5rem; display: block;}
+
+form input{padding: 10px; margin: 5px; width: 100%; border-radius: 5px;}
+
+button{margin: 10px; padding: 15px; background-color: rgb(190, 199, 135); color: #000000; border-radius: 10px; box-shadow:  2px 3px 1px; font-size: 15px;}
+
+
